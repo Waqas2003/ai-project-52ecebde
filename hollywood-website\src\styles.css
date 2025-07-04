@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  background-image: url('../assets/hero.jpg');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.movies, .celebrities, .news {
+  padding: 20px;
+}
+
+.movies ul, .celebrities ul, .news ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.movies li, .celebrities li, .news li {
+  margin-bottom: 10px;
+}
+
+.movies a, .celebrities a, .news a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+.movies a:hover, .celebrities a:hover, .news a:hover {
+  color: #23527c;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav li {
+  margin-right: 20px;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  color: #ccc;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  clear: both;
+}
